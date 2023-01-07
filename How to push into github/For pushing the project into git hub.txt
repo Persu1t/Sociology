@@ -1,0 +1,19 @@
+How to push your project into ypur github repositry.
+0. Open git bash in the project folder.
+1.Create a gitignore file name as(.gitignore) and inclue node_modules folder as follows --> (node_modules/) -->{This file will be ignored.}
+2.In the git bash type command (git init). This command will create a ghost folder named .git and will start tracking the files.
+3.In bash type command (git add .). This will add all the files which need to be staged in the github staging area.
+4.In bash type command(git commit -m "Initial Commit". This creates a commit in the staging area of gihub.
+5.Type (git status). To check the status in the repositry.Just to check working tree clean!!
+Now from here important steps to generate ssh key of the computer.
+6. In git bash type (git remote add origin <ssh url.git>)(<> brackets denote to change it to your ssh url)
+7. In git bash paste the following command (ssh-keygen -t ed25519 -C "shuklarishabh890@gmail.com"). This command generates a ssh key of your computer.
+8. In git bash type command (cat <path to id_rsa.pub>). This adds the key to your github repositry.
+9. In git bash type (git push origin main). This pushes all the files to the github.
+
+Congrats you have successfully pushed the project into your github repositry.😀😀😀
+
+
+
+
+
