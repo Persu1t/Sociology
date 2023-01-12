@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="/css/login.css" />
+<div id="login-page">
+  <div class="heading">
+    <h1>Hindutvalogy</h1>
+    <h3>Be the part of the Hindutva. &nbsp;<span>OF Hindutva, FOR Hindutva, BY Hindutva</span></h3>
+    <h3>
+      ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् | उर्वारुकमिव
+      बन्धनान्मृत्योर्मुक्षीय माऽमृतात् ||
+    </h3>
+  </div>
+  <div id="login-form">
+    <h1 id="login-form-heading">Login to your account</h1>
+    <form action="/users/create-session" id="display-form" method="POST">
+      <label for="login-email">Email Address</label>
+      <input type="email" id="login-email" placeholder="abc123@exapmle.com" />
+
+      <label for="login-password">Password</label>
+      <input type="password" id="login-password" />
+
+      <button type="submit">Login</button>
+
+      <p id="Forget-password"><a href="">Forget Your Password?</a></p>
+      <p id="Sign-up-asking">Don't have an account?&nbsp<span><a href="user_signup.ejs">Sign-up</a></span></p>
+    </form>
+  </div>
+</div>
+
+<%- include('_footer') %> 

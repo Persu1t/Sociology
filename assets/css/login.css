@@ -1,0 +1,96 @@
+body{
+  background-color: #FF7722;
+}
+
+#login-page{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.heading{
+  width: 42%;
+}
+
+
+
+#login-form{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 20px;
+  width: 40%;
+  margin-top: 10vh;
+}
+
+#login-form-heading{
+  text-align: center;
+}
+
+#display-form{
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  height: 4vh;
+  padding: 3px;
+  height: 4vh;
+  margin: auto auto 10vh auto;
+  width: 90%;
+  font-size: large;
+  background-color: rgb(241, 222, 241);
+}
+
+button{
+  width: 90%;
+  margin: auto;
+  height: 4vh;
+  background-color: #21AAFF;
+  color: azure;
+  font-size: large;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: blue;
+}
+
+label{
+  margin: auto;
+  font-size: larger;
+}
+
+#Sign-up-asking{
+  text-align: center;
+  font-size: large;
+}
+
+#Forget-password{
+  text-align: center;
+  font-size: large;
+}
+
+a{
+  text-decoration: none;
+  color: blue;
+}
+
+footer{
+  margin-top: 10vh;
+}
+
+#social-media-list{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-icon{
+  color: #0c6197;
+  font-size: xx-large;
+}
+
+
+

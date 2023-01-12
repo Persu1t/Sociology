@@ -1,0 +1,39 @@
+h1{
+  text-align: center;
+}
+
+#sign-up{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border: 1px solid lightgray;
+}
+
+input{
+  height: 4vh;
+  padding: 3px;
+  height: 4vh;
+  margin: auto auto 10vh auto;
+  width: 90%;
+  font-size: large;
+  background-color: rgb(241, 222, 241);
+}
+
+button{
+  width: 90%;
+  margin: auto;
+  height: 4vh;
+  background-color: #21AAFF;
+  color: azure;
+  font-size: large;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: blue;
+}
+
+label{
+  margin: auto;
+  font-size: larger;
+}

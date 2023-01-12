@@ -14,6 +14,12 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+
+  dateOfBirth: {
+    type: Date,
+    default: Date.now(),
+    required: true,
+  },
 },{
   timestamps: true
 });
