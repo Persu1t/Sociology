@@ -3,3 +3,7 @@ module.exports.login = function(req, res){
     title: 'login Page',
   })
 };
+
+module.exports.createSession = function(req, res){
+  // TODO LATER
+}
