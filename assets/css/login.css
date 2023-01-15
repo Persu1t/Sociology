@@ -10,7 +10,7 @@ body{
 }
 
 .heading{
-  width: 42%;
+  width: 35%;
 }
 
 
@@ -20,7 +20,7 @@ body{
   flex-direction: column;
   border: 1px solid gray;
   border-radius: 20px;
-  width: 40%;
+  width: 45%;
   margin-top: 10vh;
 }
 
