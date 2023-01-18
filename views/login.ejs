@@ -1,21 +1,20 @@
 <link rel="stylesheet" href="/css/login.css" />
 <div id="login-page">
   <div class="heading">
-    <h1>Hindutvalogy</h1>
-    <h3>Be the part of the Hindutva. &nbsp;<span>OF Hindutva, FOR Hindutva, BY Hindutva</span></h3>
+    <h1>Sociology</h1>
+    <h3>Be the part of the sociology. &nbsp;<span>OF social, FOR social, BY social</span></h3>
     <h3>
-      ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् | उर्वारुकमिव
-      बन्धनान्मृत्योर्मुक्षीय माऽमृतात् ||
+      Come and be social on india largest website.
     </h3>
   </div>
   <div id="login-form">
     <h1 id="login-form-heading">Login to your account</h1>
-    <form action="//create-session" id="display-form" method="POST">
+    <form action="/users/create-session" id="display-form" method="POST">
       <label for="login-email">Email Address</label>
-      <input type="email" id="login-email" placeholder="abc123@exapmle.com" />
+      <input type="email" id="login-email" placeholder="abc123@exapmle.com" name="email" />
 
       <label for="login-password">Password</label>
-      <input type="password" id="login-password" />
+      <input type="password" id="login-password" name="password">
 
       <button type="submit">Login</button>
 
