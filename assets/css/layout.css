@@ -1,4 +1,9 @@
-body{
+body {
   margin: 0;
   padding: 0;
 }
+body #layout-main {
+  min-height: calc(100vh - 42.81px - 28.8px);
+}
+
+/*# sourceMappingURL=layout.css.map */

@@ -1,16 +1,17 @@
 <header>
-  Page Header
-
-
   <ul>
+    <div><li>Sociology</li></div>
+
     <% if (locals.user){ %>
-      <li><a href="/users/profile"><%= user.name %></a></li>
-      <li>
-        <a href="/users/sign-out">Logout</a>
-      </li>
+    <li><a href="/users/profile"><%= user.name %></a></li>
+    <li>
+      <a href="/users/sign-out">Logout</a>
+    </li>
     <% }else{ %>
+    <div>
       <li><a href="/users/login">Login</a></li>
       <li><a href="/users/sign-up">Signup</a></li>
-    <% } %>  
+    </div>
+    <% } %>
   </ul>
 </header>
