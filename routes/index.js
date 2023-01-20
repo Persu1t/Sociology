@@ -8,6 +8,7 @@ console.log('loaded routes')
 router.get('/', homeController.home);
 // router.use('/users', require('./home'))
 router.use('/users', require('./users'))
-router.use('/users', require('./posts'))
+router.use('/posts', require('./posts'))
+router.use('/comments', require('./comments'))
 
 module.exports = router;
