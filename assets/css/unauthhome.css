@@ -1,0 +1,29 @@
+#unauth-home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#unauth-home-container #sociology-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+}
+#unauth-home-container #sociology-description h2 {
+  text-align: center;
+}
+#unauth-home-container #platform-img img {
+  height: 80vh;
+  padding-right: 5vh;
+}
+
+#like-comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#like-comment h1 {
+  text-align: center;
+}
+
+/*# sourceMappingURL=unauthhome.css.map */

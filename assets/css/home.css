@@ -1,0 +1,16 @@
+#post-comment {
+  display: flex;
+}
+#post-comment #feed-post {
+  width: 70%;
+  padding: 2vh;
+  border-right: 1px dashed rgb(116, 111, 111);
+}
+#post-comment #user-friends {
+  width: 30%;
+  padding: 1vh;
+  border-left: 1px dashed rgb(116, 111, 111);
+  height: 100vh;
+}
+
+/*# sourceMappingURL=home.css.map */
