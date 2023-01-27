@@ -33,7 +33,7 @@ body{
   flex-direction: column;
 }
 
-input{
+.login-input{
   height: 4vh;
   padding: 3px;
   height: 4vh;
@@ -43,7 +43,7 @@ input{
   background-color: rgb(241, 222, 241);
 }
 
-button{
+#btn-login{
   width: 90%;
   margin: auto;
   height: 4vh;

@@ -13,52 +13,29 @@ Now from here important steps to generate ssh key of the computer.
 
 Congrats you have successfully pushed the project into your github repositry.😀😀😀
 
+<header>
+  <ul>
+    <div><li>Sociology</li></div>
 
-  // User.findOne({ email: req.body.email }, function (err, user) {
-  //   if (err) {
-  //     console.log("Error in finding in signing in");
-  //     return;
-  //   }
-  
-  //   //Handle User found
-  //   if (user) {
-  //     //Handle password which doesn't match
-  //     if (user.password != req.body.password) {
-  //       return res.redirect("back");
-  //     }
-  
-  //     //handle session creation
-  //     res.cookie("user_id", user.id);
-  //     // req.flash("success", "Logged in Successfully");
-  //     return res.redirect("/");
-  //   } else {
-  //     //handle user not found
-  //     return res.redirect("back");
-  //   }
-  // });
+    <% if (locals.user){ %>
+    <li><a href="/users/profile"><%= user.name %></a></li>
+    <li>
+      <a href="/users/sign-out">Logout</a>
+    </li>
+    <% }else{ %>
+    <div>
+      <li><a href="/users/login">Login</a></li>
+      <li><a href="/users/sign-up">Signup</a></li>
+    </div>
+    <% } %>
+  </ul>
+</header>
 
 
-  module.exports.create = function(req,res){
-  if (req.body.password!= req.body.confirm_password){
-    return res.redirect('back')
-  }
 
-  User.findOne({email: req.body.email}, function(err, user){
-    if (err){
-      console.log('User not found :( Error in creating user while signup')
-      return
-    }
-    if(!user){
-      User.create(req.body, function(err, user){
-        if (err){console.log('User not found :( Error in sigining up'); return}
-        return res.redirect('/users/login')
-      });
-    }
-    else{
-      res.redirect('back')
-    }
-  })
-}
+
+
+
 
 
 

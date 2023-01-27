@@ -1,11 +1,15 @@
-footer #social-media-list {
+footer {
   display: flex;
   justify-content: space-evenly;
-  list-style: none;
+}
+footer .text-muted {
+  font-size: larger;
+}
+footer p {
+  font-size: larger;
+}
+footer i {
   font-size: x-large;
-  background-color: rgb(164, 154, 154);
-  margin-bottom: 0%;
-  width: 100%;
 }
 
 /*# sourceMappingURL=footer.css.map */

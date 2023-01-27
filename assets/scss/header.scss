@@ -1,25 +1,5 @@
 header{
-  ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    background-color:rgb(50, 50, 235);
-    height: 6vh;
-    align-items: center;
-
-    div{
-      display: flex;
-      font-size: larger;
-      color: beige;
-    }
-    li{
-      margin-right: 8px;
-      a{
-        font-size: large;
-        color: beige;
-        text-decoration: none;
-      }
-    }
+  .navbar{
+    background-color: rgb(132, 220, 249); 
   }
-
 }

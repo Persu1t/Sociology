@@ -1,11 +1,13 @@
 footer{
-  #social-media-list{
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-    font-size: x-large;
-    background-color: rgb(164, 154, 154);
-    margin-bottom: 0%;
-    width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  .text-muted{
+    font-size: larger;
   }
+  p{
+    font-size: larger;
+  }
+ i{
+  font-size: x-large;
+ }
 }

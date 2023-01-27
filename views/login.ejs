@@ -11,12 +11,12 @@
     <h1 id="login-form-heading">Login to your account</h1>
     <form action="/users/create-session" id="display-form" method="POST">
       <label for="login-email">Email Address</label>
-      <input type="email" id="login-email" placeholder="abc123@exapmle.com" name="email" />
+      <input class="login-input" type="email" id="login-email" placeholder="abc123@exapmle.com" name="email" />
 
       <label for="login-password">Password</label>
-      <input type="password" id="login-password" name="password">
+      <input class="login-input" type="password" id="login-password" name="password">
 
-      <button type="submit">Login</button>
+      <button id="btn-login" type="submit">Login</button>
 
       <p id="Forget-password"><a href="">Forget Your Password?</a></p>
       <p id="Sign-up-asking">Don't have an account?&nbsp<span><a href="/users/sign-up">Sign-up</a></span></p>
