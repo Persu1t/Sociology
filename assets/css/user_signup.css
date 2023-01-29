@@ -15,7 +15,7 @@ h1{
   height: 40%;
 }
 
-input{
+.sign-up-input{
   padding: 3px;
   height: 4vh;
   margin: auto auto 5vh auto;
@@ -24,7 +24,7 @@ input{
   background-color: rgb(241, 222, 241);
 }
 
-button{
+#sign-up-btn{
   width: 90%;
   margin: auto auto 2vh auto;
   height: 4vh;
@@ -75,7 +75,7 @@ p{
     height: 40%;
   }
 
-  input{
+  .sign-up-input{
     height: 5vh;
     padding: 3px;
     margin: auto auto 4vh auto;
@@ -84,7 +84,7 @@ p{
     background-color: rgb(241, 222, 241);
   }
 
-  button{
+  .sign-up-btn{
     width: 70%;
     margin: auto auto 2vh auto;
     height: 5vh;
@@ -106,7 +106,7 @@ p{
     height: 40%;
   }
 
-  input{
+  .sign-up-input{
     padding: 3px;
     height: 10vh;
     margin: auto auto 4vh auto;
@@ -115,7 +115,7 @@ p{
     background-color: rgb(241, 222, 241);
   }
 
-  button{
+  #sign-up-btn{
     width: 70%;
     margin: auto auto 2vh auto;
     height: 10vh;
@@ -136,7 +136,7 @@ p{
     height: 40%;
   }
 
-  input{
+  .sign-up-input{
     padding: 3px;
     height: 8vh;
     margin: auto auto 4vh auto;
@@ -145,7 +145,7 @@ p{
     background-color: rgb(241, 222, 241);
   }
 
-  button{
+  #sign-up-btn{
     width: 70%;
     margin: auto auto 2vh auto;
     height: 8vh;
@@ -165,7 +165,7 @@ p{
     height: 40%;
   }
   
-  input{
+  .sign-up-input{
     padding: 3px;
     height: 6vh;
     margin: auto auto 5vh auto;
@@ -174,7 +174,7 @@ p{
     background-color: rgb(241, 222, 241);
   }
   
-  button{
+  #sign-up-btn{
     width: 90%;
     margin: auto auto 2vh auto;
     height: 6vh;
@@ -194,7 +194,7 @@ p{
     height: 40%;
   }
   
-  input{
+  .sign-up-input{
     padding: 3px;
     height: 4vh;
     margin: auto auto 5vh auto;
@@ -203,7 +203,7 @@ p{
     background-color: rgb(241, 222, 241);
   }
   
-  button{
+  #sign-up-btn{
     width: 90%;
     margin: auto auto 2vh auto;
     height: 4vh;

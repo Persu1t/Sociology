@@ -1,29 +1,16 @@
-#unauth-home-container {
+.first-container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
-#unauth-home-container #sociology-description {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 45%;
+.first-container .cover-image-container #first-img {
+  height: 50vh;
 }
-#unauth-home-container #sociology-description h2 {
-  text-align: center;
+.first-container .container-fluid button {
+  width: 15vh;
+  border-radius: 2vh;
 }
-#unauth-home-container #platform-img img {
-  height: 80vh;
-  padding-right: 5vh;
-}
-
-#like-comment {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-#like-comment h1 {
-  text-align: center;
+.first-container .container-fluid button #Login-btn {
+  text-decoration: none;
+  font-size: larger;
 }
 
 /*# sourceMappingURL=unauthhome.css.map */

@@ -4,23 +4,21 @@
   <form action="/users/create" id="sign-up" method="POST">
 
     <label for="name-user">Enter your Name</label>
-    <input type="text" name="name" id="name-user">
+    <input class="sign-up-input" type="text" name="name" id="name-user">
 
     <label for="email-user">Enter your E-mail</label>
-    <input type="email" name="email" id="email-user">
+    <input class="sign-up-input" type="email" name="email" id="email-user">
 
     <label for="date-of-birth-user">Enter your date of birth</label>
-    <input type="date" name="dateofbirth" id="date-of-birth-user">
+    <input class="sign-up-input" type="date" name="dateofbirth" id="date-of-birth-user">
 
     <label for="password-user">Enter your password</label>
-    <input type="password" name="password" id="password-user">
+    <input class="sign-up-input" type="password" name="password" id="password-user">
 
     <label for="password-user-confirmed">Confirm password</label>
-    <input type="password" name="confirm_password" id="password-user-confirmed">
+    <input class="sign-up-input" type="password" name="confirm_password" id="password-user-confirmed">
 
-    <button type="submit">Sign-up</button>
+    <button id="sign-up-btn" type="submit">Sign-up</button>
     <p>Already have an account? <a href="/">Login here</a></p>
   </form>
 </div>
-
-<%- include('_footer') %> 

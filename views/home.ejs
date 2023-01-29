@@ -5,9 +5,10 @@
   <% if(locals.user){ %>
   <section id="feed-post">
     <h4>Posts</h4>
-    <form action="/posts/create" id="new-post-form" method="POST">
-      <textarea name="content" id="" cols="30" rows="3" required></textarea>
-      <input type="submit" value="Post" />
+    <form action="/posts/create" id="new-post-form" method="POST" enctype="multipart/form-data">
+      <textarea name="content" id="" cols="30" rows="3"></textarea>
+      <input type="file" name="file-post" placeholder="upload-post">
+      <input type="submit" value="Post">
     </form>
     <div id="posts-list-container">
       <ul>
