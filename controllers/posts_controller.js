@@ -7,10 +7,14 @@ module.exports.create = async function (req, res) {
     let post = await Post.create({
       content: req.body.content,
       user: req.user._id,
-    });
+    },
+    Post.uploadedPost(req, res, function(err){
+      if (err) {console.log('******Multer Error', err)}
+      console.log(req.file)
+    }));
+    
     if(req.xhr){
       post = await post.populate([{ path: 'user', select: 'name email' }]);
-
       return res.status(200).json({
         data:{
           post: post,
